@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/home/logs",
+    "pages/index/index",
+    "pages/finance/index",
+    "pages/serviceField/tabhome/index",
+    "pages/serviceField/tabcombo/index",
+    "pages/logsclient/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#5F5F5F",
+    "selectedColor": "#027FF5",
+    "backgroundColor": "#F7F7F7",
+    "list": [{
+        "selectedIconPath": "/public/images/batBar/home_active.png",
+        "iconPath": "/public/images/batBar/home.png",
+        "pagePath": "pages/serviceField/tabhome/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "/public/images/batBar/finance_active.png",
+        "iconPath": "/public/images/batBar/finance.png",
+        "pagePath": "pages/serviceField/tabcombo/index",
+        "text": "我的套餐"
+      },
+      {
+
+        "selectedIconPath": "/images/footer-01-h.png",
+        "iconPath": "/images/footer-01.png",
+        "pagePath": "pages/logsclient/logs",
+        "text": "客户log页"
+      },
+      {
+        "selectedIconPath": "/public/images/batBar/home_active.png",
+        "iconPath": "/public/images/batBar/home.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "/public/images/batBar/home_active.png",
+        "iconPath": "/public/images/batBar/finance.png",
+        "pagePath": "pages/finance/index",
+        "text": "业财一体"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

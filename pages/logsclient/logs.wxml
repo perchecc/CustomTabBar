@@ -1,0 +1,5 @@
+<view class="btns">
+  <view>你好呀</view>
+  <button class="btn" bindtap="update" data-role="2">客户端</button>
+  <button class="btn" bindtap="update" data-role="1">用户端</button>
+</view>
